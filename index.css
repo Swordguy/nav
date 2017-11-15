@@ -1,0 +1,28 @@
+*{
+	margin: 0px;
+	padding:0px;
+}
+body{
+	background-color:#9fc5e8; 
+}
+#nav {
+     position: absolute;
+     left:0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     margin: auto;
+     width: 188px;
+     height: 458px;   
+}
+#canvas {
+	background-color:black;
+	width: inherit;
+}
+li{
+	position: absolute;
+	list-style: none;	
+	transform-origin: 0px 458px;
+	box-shadow: 1px 2px 5px   #000;
+	font-size: 0;
+}
